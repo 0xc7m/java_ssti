@@ -1,6 +1,6 @@
 # JAVA_SSTI
 
-JAVA_SSTI.py assists the exploitation of Server-Side Template Injection vulnerabilities in JAVA.
+JAVA_SSTI.py assists the exploitation of Server-Side Template Injection vulnerabilities in java.
 The tool and its test suite are developed to research the SSTI vulnerability class and to be used as offensive security tool during web application penetration tests.
 
 What is server-side template injection?
@@ -8,10 +8,12 @@ A server-side template injection occurs when an attacker is able to use native t
 Template engines are designed to generate web pages by combining fixed templates with volatile data. Server-side template injection attacks can occur when user input is concatenated directly into a template, rather than passed in as data. This allows attackers to inject arbitrary template directives in order to manipulate the template engine, often enabling them to take complete control of the server.
 
 ### Usage options:
+```Bash
   eval       Command for obfuscation, for example: 'cat /etc/passwd'
 optional arguments:
   -h, --help     show help message
   -v, --verbose  increase verbosity
+```
 
 ### Example:
 ```Bash
